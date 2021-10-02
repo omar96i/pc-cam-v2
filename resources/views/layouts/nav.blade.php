@@ -17,7 +17,7 @@
                 <a class="nav-link" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Computadores</a>
+                <a class="nav-link" href="{{route('computadores.index')}}">Computadores</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Impresoras</a>
