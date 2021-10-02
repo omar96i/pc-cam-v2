@@ -15,18 +15,19 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 Route::prefix('computadores')->group(function () {
-    Route::get('/', [App\Http\Controllers\Computadores\ComputadoresController::class, 'index'])->name('computadores.index');   
+    Route::get('/', [App\Http\Controllers\Computadores\ComputadoresController::class, 'index'])->name('computadores.index');
 });
 Route::prefix('impresoras')->group(function () {
-    Route::get('/', [App\Http\Controllers\Camaras\CamarasController::class, 'index'])->name('camaras.index'); 
+    Route::get('/', [App\Http\Controllers\Camaras\CamarasController::class, 'index'])->name('camaras.index');
 });
 Route::prefix('camaras')->group(function () {
-    Route::get('/', [App\Http\Controllers\Accesorios\AccesoriosController::class, 'index'])->name('accesorios.index'); 
+    Route::get('/', [App\Http\Controllers\Accesorios\AccesoriosController::class, 'index'])->name('accesorios.index');
 });
 Route::prefix('accesorios')->group(function () {
-    Route::get('/', [App\Http\Controllers\Redes\RedesController::class, 'index'])->name('redes.index'); 
+    Route::get('/', [App\Http\Controllers\Redes\RedesController::class, 'index'])->name('redes.index');
 });
 Route::prefix('redes')->group(function () {
-    Route::get('/', [App\Http\Controllers\Impresoras\ImpresorasController::class, 'index'])->name('impresoras.index'); 
+    Route::get('/', [App\Http\Controllers\Impresoras\ImpresorasController::class, 'index'])->name('impresoras.index');
 });
