@@ -1,0 +1,33 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.contenedor {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: rgba($color: #000000, $alpha: 0.4);
+    height: 100px;
+}
+
+.imagen-background {
+    z-index: 0;
+    height: 100px;
+}
+.content{
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    left: 46%;
+    color: white;
+}
