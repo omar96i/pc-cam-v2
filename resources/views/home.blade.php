@@ -2,7 +2,7 @@
 @section('title', 'Home')
 
 @section('content')
-<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="carousel-example-2" class="carousel slide carousel-fade p-5" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-example-2" data-slide-to="1"></li>
@@ -76,41 +76,33 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<div class="col-12">
-    <div class="row pt-5">
-        <div class="col-12 col-sm-6">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 mt-5 col-sm-6 mt-sm-0">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
+<div class="col-12 row px-4 justify-content-center">
+    <div class="card col-5 my-3 mr-4 shadow">
+        <img src="/images/contenido/computadores.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h3>COMPUTADORES</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
     </div>
-    <div class="row py-5">
-        <div class="col-12 col-sm-6">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
+    <div class="card col-5 my-3 shadow">
+        <img src="/images/contenido/impresoras_venta.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h3>IMPRESORAS</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
-        <div class="col-12 mt-5 col-sm-6 mt-sm-0">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
+    </div>
+    <div class="card col-5 my-3  mr-4 shadow">
+        <img src="/images/contenido/camara_venta.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h3>CAMARAS</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+    <div class="card col-5 my-3 shadow">
+        <img src="/images/contenido/redes_venta.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h3>REDES TECNOLOGICAS</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
     </div>
 </div>
